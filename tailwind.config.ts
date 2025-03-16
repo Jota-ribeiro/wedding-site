@@ -10,10 +10,15 @@ export default {
     extend: {
       fontFamily: {
         abhaya: "var(--font-abhaya-libre)",
+        beau: "var(--font-beau-rivage)",
+        ephesis: "var(--font-ephesis)",
+        cinzel: "var(--font-cinzel)"
+
       },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        musgo: '#142601AB'
       },
     },
   },

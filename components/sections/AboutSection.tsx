@@ -5,7 +5,7 @@ import imgFlor from '@/public/img/img-flor-2.svg'
 
 export default function AboutSection() {
     return (
-        <section className={clsx('w-full flex flex-col items-center', 'gap-5 md:gap-10')}>
+        <section id="about-section" className={clsx('w-full flex flex-col items-center', 'gap-5 md:gap-10')}>
             <p className={clsx('font-beau text-musgo', 'text-3xl md:text-8xl')}>O Casal</p>
             <Image className={clsx('w-8/12 md:w-auto')} src={casalImg} alt="" />
             <div className={clsx('w-full max-h-64 md:max-h-none overflow-auto md:overflow-hidden px-3 md:px-48', 'font-cinzel leading-6 text-[10px] md:text-base text-center', 'flex flex-col gap-8')}>

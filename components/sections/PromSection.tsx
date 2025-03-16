@@ -2,7 +2,7 @@ import clsx from "clsx";
 
 export default function PromSection() {
     return (
-        <section className={clsx('w-full flex flex-col justify-center items-center', 'gap-12')}>
+        <section id="prom-section" className={clsx('w-full flex flex-col justify-center items-center', 'gap-12')}>
             <p className={clsx('font-beau text-[#142601]', 'text-3xl md:text-8xl')}>A Cerimônia</p>
             <div className={clsx('w-full px-5 md:px-44 flex flex-row justify-center', 'gap-10 md:gap-20')}>
                 <div className={clsx('flex flex-col gap-5 md:gap-8', 'w-3/12')}>

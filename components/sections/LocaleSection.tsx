@@ -7,7 +7,7 @@ import imgFlor from '@/public/img/img-flor3.svg'
 
 export default function LocaleSection() {
     return (
-        <section className={clsx('w-full flex flex-col items-center md:-mt-8', 'gap-2 md:gap-5', 'text-[#142601]')}>
+        <section id="locale-section" className={clsx('w-full flex flex-col items-center md:-mt-8', 'gap-2 md:gap-5', 'text-[#142601]')}>
             <p className={clsx('font-beau', 'text-3xl md:text-8xl')}>Junte-se a nós no nosso casamento</p>
             <p className={clsx('font-cinzel md:text-4xl')}>16 de Junho de 2025</p>
             <p className={clsx('font-cinzel md:text-4xl')}>às 16h00</p>

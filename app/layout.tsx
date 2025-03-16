@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Abhaya_Libre } from "next/font/google";
+import { Abhaya_Libre, Beau_Rivage, Ephesis, Cinzel } from "next/font/google";
 import "./globals.css";
 
 const abhaya = Abhaya_Libre({
@@ -7,6 +7,24 @@ const abhaya = Abhaya_Libre({
   variable: "--font-abhaya-libre",
   subsets: ["latin"],
 });
+
+const beau = Beau_Rivage({
+  weight: ["400"],
+  variable: "--font-beau-rivage",
+  subsets: ["latin", "latin-ext", "vietnamese"]
+})
+
+const ephesis = Ephesis({
+  weight: ["400"],
+  variable: "--font-ephesis",
+  subsets: ["latin", "latin-ext", "vietnamese"]
+})
+
+const cinzel = Cinzel({
+  weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-cinzel",
+  subsets: ["latin", "latin-ext"]
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -20,7 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${abhaya.variable} antialiased`}>{children}</body>
+      <body className={` ${abhaya.variable} ${beau.variable} ${ephesis.variable} ${cinzel.variable} antialiased`}>{children}</body>
     </html>
   );
 }

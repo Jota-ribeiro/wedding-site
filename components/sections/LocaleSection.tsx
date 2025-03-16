@@ -16,14 +16,14 @@ export default function LocaleSection() {
             <div className={clsx('w-full md:w-4/12 px-3 gap-3 flex flex-row justify-center')}>
                 <div style={{
                     boxShadow: "0px 3.455px 3.455px 0px rgba(0, 0, 0, 0.25)",
-                }} className={clsx('w-6/12 bg-white', 'py-3 flex flex-row justify-center items-center gap-2', 'rounded', 'cursor-pointer')}>
+                }} className={clsx('w-6/12 bg-white', 'py-3 flex flex-row justify-center items-center gap-2', 'rounded', 'cursor-pointer active:scale-95 ease-in-out duration-300')}>
                     <Image src={iconLupa} alt="" />
 
                     <p className={clsx('text-[11px] md:text-xs font-semibold')}>Como Chegar</p>
                 </div>
                 <div style={{
                     boxShadow: "0px 3.455px 3.455px 0px rgba(0, 0, 0, 0.25)",
-                }} className={clsx('w-6/12 bg-[#142601]', 'py-3 flex flex-row justify-center items-center gap-2', 'rounded', 'cursor-pointer')}>
+                }} className={clsx('w-6/12 bg-[#142601]', 'py-3 flex flex-row justify-center items-center gap-2', 'rounded', 'cursor-pointer active:scale-95 ease-in-out duration-300')}>
                     <Image src={iconCalender} alt="" />
 
                     <p className={clsx('text-[11px] md:text-xs text-white font-semibold')}>Confirmar Presença</p>

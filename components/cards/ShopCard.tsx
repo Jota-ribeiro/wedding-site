@@ -10,7 +10,7 @@ export default function ShopCard() {
             <div className={clsx('w-full flex flex-col', 'p-4')}>
                 <p className={clsx('text-[#1D1B20] text-sm font-medium')}>Aluguel de Carro para a Lua de Mel</p>
                 <p className={clsx('text-[#49454F] text-xs font-medium')}>R$ 1.653,00</p>
-                <div className={clsx('w-fit self-center mt-8 flex justify-center bg-[#142601]', 'text-white', 'py-2 px-6 rounded-full', 'cursor-pointer')}>
+                <div className={clsx('w-fit self-center mt-8 flex justify-center bg-[#142601]', 'text-white', 'py-2 px-6 rounded-full', 'cursor-pointer active:scale-95 ease-in-out duration-150')}>
                     <p className={clsx('text-xs')}>Presentear</p>
                 </div>
             </div>

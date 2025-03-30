@@ -10,6 +10,8 @@ import Header from "@/components/sections_v2/Header";
 import Image from "next/image";
 import { useState } from "react";
 
+import { ArrowLeftFromLineIcon } from 'lucide-react'
+
 export default function Home() {
 
   const [showAside, setShowAside] = useState(true)
@@ -25,8 +27,8 @@ export default function Home() {
       )}>
         <div className={clsx('h-full flex flex-col bg-white border-r shadow-sm')}>
           <div className={clsx('h-auto flex flex-col bg-[#f2fcfc] py-6 px-8 gap-2')}>
-            <div onClick={() => setShowAside(false)} className="self-end rotate-90 cursor-pointer">
-              <Image src={chevronDown} alt="" />
+            <div onClick={() => setShowAside(false)} className="self-end cursor-pointer">
+              <ArrowLeftFromLineIcon />
             </div>
             <Image className="w-5/12" src={luizele} alt="" />
             <p className="text-lg">Alessandra <span className="text-red-400">&</span> Luiz Lima</p>

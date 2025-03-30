@@ -16,6 +16,11 @@ export default function Home() {
       {/* section com img, aside e btn que aparecerá somente no mobile */}
       <FirstSection />
 
+      {/* TODA ESSA PARTE ESTÁ FICANDO AO FIM DO ASIDE, JÁ QUE ELE TEM UM H-SCREEN */}
+      <div>
+        <h1 className="text-cyan-500 text-3xl">TESTE</h1>
+      </div>
+
       <section className={clsx('relative flex justify-center items-center')}>
         {/* <Image className={clsx('w-full')} src={imgCasal} alt="" />
         <div className={clsx('flex flex-col absolute', 'justify-center items-center')}>

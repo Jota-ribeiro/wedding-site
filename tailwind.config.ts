@@ -18,7 +18,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        musgo: '#142601AB'
+        musgo: '#142601AB',
+        Cinza_main_100: '#404951'
       },
     },
   },

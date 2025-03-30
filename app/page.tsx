@@ -7,13 +7,9 @@ import clsx from "clsx";
 import Header from "@/components/sections_v2/Header";
 import FirstSection from "@/components/sections_v2/FirstSection";
 
-
-
 export default function Home() {
 
-
   return (
-
     <main>
       <Header />
 
